@@ -1,3 +1,11 @@
+## Comandos
+
+   php artisan make:migration <migration_name> --create=<table_name>
+   php artisan make:seed <ClassName>
+   php artisan migrate:refresh --seed
+   sudo php artisan optimize
+   php artisan tinker
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
