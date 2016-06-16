@@ -138,12 +138,18 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * Providers de terceiros
+         */
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         CodeDelivery\Providers\AppServiceProvider::class,
         CodeDelivery\Providers\AuthServiceProvider::class,
         CodeDelivery\Providers\EventServiceProvider::class,
         CodeDelivery\Providers\RouteServiceProvider::class,
+        CodeDelivery\Providers\RepositoryServiceProvider::class,
 
     ],
 

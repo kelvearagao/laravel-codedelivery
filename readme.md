@@ -1,10 +1,17 @@
 ## Comandos
 
+   php artisan key:generate
+   sudo chmod 777 -R storage
+   sudo chmod 777 -R bootstrap/cache
    php artisan make:migration <migration_name> --create=<table_name>
    php artisan make:seed <ClassName>
    php artisan migrate:refresh --seed
    sudo php artisan optimize
    php artisan tinker
+
+* Instalação do pacote l5-repository  
+   composer require prettus/l5-repository
+   php artisan vendor:publish
 
 ## Laravel PHP Framework
 
